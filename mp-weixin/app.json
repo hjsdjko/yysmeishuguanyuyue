@@ -1,0 +1,110 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/changepassword/changepassword",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/recharge/recharge",
+    "pages/caozuorizhi/list",
+    "pages/caozuorizhi/list2",
+    "pages/caozuorizhi/add-or-update",
+    "pages/caozuorizhi/detail",
+    "pages/forum/forum-index",
+    "pages/forum/forum-detail",
+    "pages/forum/forum-my",
+    "pages/forum/forum-add-or-update",
+    "pages/meishuguan/list",
+    "pages/meishuguan/list2",
+    "pages/meishuguan/add-or-update",
+    "pages/meishuguan/detail",
+    "pages/meishuguanCollection/list",
+    "pages/meishuguanCollection/list2",
+    "pages/meishuguanCollection/add-or-update",
+    "pages/meishuguanCollection/detail",
+    "pages/meishuguanLiuyan/list",
+    "pages/meishuguanLiuyan/list2",
+    "pages/meishuguanLiuyan/add-or-update",
+    "pages/meishuguanLiuyan/detail",
+    "pages/meishuguanOrder/list",
+    "pages/meishuguanOrder/add-or-update",
+    "pages/meishuguanOrder/confirm",
+    "pages/news/list",
+    "pages/news/list2",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/list2",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/zhanpin/list",
+    "pages/zhanpin/list2",
+    "pages/zhanpin/add-or-update",
+    "pages/zhanpin/detail",
+    "pages/zhanpinCollection/list",
+    "pages/zhanpinCollection/list2",
+    "pages/zhanpinCollection/add-or-update",
+    "pages/zhanpinCollection/detail",
+    "pages/zhanpinLiuyan/list",
+    "pages/zhanpinLiuyan/list2",
+    "pages/zhanpinLiuyan/add-or-update",
+    "pages/zhanpinLiuyan/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "岳阳市美术馆预约平台",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#9ad4ed",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/meishuguan/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "美术馆"
+      },
+      {
+        "pagePath": "pages/zhanpin/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "展品信息"
+      },
+      {
+        "pagePath": "pages/forum/forum-index",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}
